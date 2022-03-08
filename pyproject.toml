@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "concat_pdfs"
+version = "0.1.0"
+description = "to concatenate 2 pdfs together and save to a new file"
+authors = ["Ahmed ElSheikh <ahmed.elsheikh@screevo.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pdfrw = "^0.4"
+black = "^22.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
